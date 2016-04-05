@@ -3,6 +3,7 @@
 
 Use Pathogen with your VIM to edit Puppet files
 
-run this in your terminal
+1. backup your .vimrc file and .vim dir in ~ directory
+2. run this in your terminal
 
-cd ~ && mv .vimrc .vimrc.backup && mv .vim .vim.backup && git clone https://github.com/perfecto25/puppet-vim-pathogen.git && mv puppet-vim-pathogen .vim && ln -s .vim/vimrc .vimrc
+cd ~ && git clone https://github.com/perfecto25/puppet-vim-pathogen.git && mv puppet-vim-pathogen .vim && ln -s .vim/vimrc .vimrc
